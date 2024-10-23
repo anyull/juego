@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.fondoGame {
+    background-image: url(../imagenes/fondo.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 2200px;
+    width: 100%
+}
+
+.movimiento {
+    position: relative;
+    top: 500px;
+    left: 600px;
+    animation: halloween 3s; infinite
+}
+    
+
+
+@keyframes halloween {
+    0%  {top:35vh; left: 10%;}
+    20%  {top: 65vh; left: 50%;}
+    60%  { top: 80vh; left:20%;}
+    80% { top: 8vh; left: 24%;}
+    90% {top: 30vh; left: 70%; }
+    100% {top: 80vh; left: 72%; }
+    20%  {top: 65vh; left: 50%;}
+}
+    
+
+.bungee-outline-regular {
+    font-family: "Bungee Outline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 180px;
+  }
+  
+ 
